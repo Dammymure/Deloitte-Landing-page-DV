@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/Remixicons/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-container">
+            <div class="header-container">
+                <div class="logo"><img src="/images/deloitte.svg.png" alt=""></div>
+            </div>
+
+            <div class="header-list-container">
+                <ul class="header-list">
+                    <li class="services"><p> Services </p> <i class="ri-arrow-drop-down-line"></i></li>
+                    <li class="industries"><p> Industries</p> <i class="ri-arrow-drop-down-line"></i></li>
+                    <li class="insights"><P> Insights </P> <i class="ri-arrow-drop-down-line"></i></li>
+                    <li class="career"><p> Career </p> <i class="ri-arrow-drop-down-line"></i></li>
+                </ul>
+            </div>
+
+            <div class="forms">
+                <form action="" class="form-container">
+                    <input type="text" class="form-input" placeholder="Search">
+                    <button class="search-btn">
+                        <i class="ri-search-line"></i> 
+                    </button>
+                </form>
+
+
+                <div class="language-account">
+                    <div><i class="ri-global-fill"></i></div>
+                    <select class="select" id="country" name="country">
+                        <option>select country</option>
+                        <option value="AF">Afghanistan</option>
+                        <option value="AX">Aland Islands</option>
+                        <option value="AL">Albania</option>
+                        <option value="DZ">Algeria</option>
+                        <option value="AS">American Samoa</option>
+                        <option value="AD">Andorra</option>
+                        <option value="AO">Angola</option>
+                        <option value="AI">Anguilla</option>
+                        <option value="AQ">Antarctica</option>
+                        <option value="AG">Antigua and Barbuda</option>
+                        <option value="AR">Argentina</option>
+                        <option value="AM">Armenia</option>
+                        <option value="AW">Aruba</option>
+                        <option value="AU">Australia</option>
+                        <option value="AT">Austria</option>
+                        <option value="AZ">Azerbaijan</option>
+                        <option value="BS">Bahamas</option>
+                        <option value="BH">Bahrain</option>
+                        <option value="BD">Bangladesh</option>
+                        <option value="BB">Barbados</option>
+                        <option value="BY">Belarus</option>
+                        <option value="BE">Belgium</option>
+                        <option value="BZ">Belize</option>
+                        <option value="BJ">Benin</option>
+                        <option value="BM">Bermuda</option>
+                        <option value="BT">Bhutan</option>
+                        <option value="BO">Bolivia</option>
+                        <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                        <option value="BA">Bosnia and Herzegovina</option>
+                        <option value="BW">Botswana</option>
+                        <option value="BV">Bouvet Island</option>
+                        <option value="BR">Brazil</option>
+                        <option value="IO">British Indian Ocean Territory</option>
+                        <option value="BN">Brunei Darussalam</option>
+                        <option value="BG">Bulgaria</option>
+                        <option value="BF">Burkina Faso</option>
+                        <option value="BI">Burundi</option>
+                        <option value="KH">Cambodia</option>
+                        <option value="CM">Cameroon</option>
+                        <option value="CA">Canada</option>
+                        <option value="CV">Cape Verde</option>
+                        <option value="KY">Cayman Islands</option>
+                        <option value="CF">Central African Republic</option>
+                        <option value="TD">Chad</option>
+                        <option value="CL">Chile</option>
+                        <option value="CN">China</option>
+                        <option value="CX">Christmas Island</option>
+                        <option value="CC">Cocos (Keeling) Islands</option>
+                        <option value="CO">Colombia</option>
+                        <option value="KM">Comoros</option>
+                        <option value="CG">Congo</option>
+                        <option value="CD">Congo, Democratic Republic of the Congo</option>
+                        <option value="CK">Cook Islands</option>
+                        <option value="CR">Costa Rica</option>
+                        <option value="CI">Cote D'Ivoire</option>
+                        <option value="HR">Croatia</option>
+                        <option value="CU">Cuba</option>
+                        <option value="CW">Curacao</option>
+                        <option value="CY">Cyprus</option>
+                        <option value="CZ">Czech Republic</option>
+                        <option value="DK">Denmark</option>
+                        <option value="DJ">Djibouti</option>
+                        <option value="DM">Dominica</option>
+                        <option value="DO">Dominican Republic</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="EG">Egypt</option>
+                        <option value="SV">El Salvador</option>
+                        <option value="GQ">Equatorial Guinea</option>
+                        <option value="ER">Eritrea</option>
+                        <option value="EE">Estonia</option>
+                        <option value="ET">Ethiopia</option>
+                        <option value="FK">Falkland Islands (Malvinas)</option>
+                        <option value="FO">Faroe Islands</option>
+                        <option value="FJ">Fiji</option>
+                        <option value="FI">Finland</option>
+                        <option value="FR">France</option>
+                        <option value="GF">French Guiana</option>
+                        <option value="PF">French Polynesia</option>
+                        <option value="TF">French Southern Territories</option>
+                        <option value="GA">Gabon</option>
+                        <option value="GM">Gambia</option>
+                        <option value="GE">Georgia</option>
+                        <option value="DE">Germany</option>
+                        <option value="GH">Ghana</option>
+                        <option value="GI">Gibraltar</option>
+                        <option value="GR">Greece</option>
+                        <option value="GL">Greenland</option>
+                        <option value="GD">Grenada</option>
+                        <option value="GP">Guadeloupe</option>
+                        <option value="GU">Guam</option>
+                        <option value="GT">Guatemala</option>
+                        <option value="GG">Guernsey</option>
+                        <option value="GN">Guinea</option>
+                        <option value="GW">Guinea-Bissau</option>
+                        <option value="GY">Guyana</option>
+                        <option value="HT">Haiti</option>
+                        <option value="HM">Heard Island and Mcdonald Islands</option>
+                        <option value="VA">Holy See (Vatican City State)</option>
+                        <option value="HN">Honduras</option>
+                        <option value="HK">Hong Kong</option>
+                        <option value="HU">Hungary</option>
+                        <option value="IS">Iceland</option>
+                        <option value="IN">India</option>
+                        <option value="ID">Indonesia</option>
+                        <option value="IR">Iran, Islamic Republic of</option>
+                        <option value="IQ">Iraq</option>
+                        <option value="IE">Ireland</option>
+                        <option value="IM">Isle of Man</option>
+                        <option value="IL">Israel</option>
+                        <option value="IT">Italy</option>
+                        <option value="JM">Jamaica</option>
+                        <option value="JP">Japan</option>
+                        <option value="JE">Jersey</option>
+                        <option value="JO">Jordan</option>
+                        <option value="KZ">Kazakhstan</option>
+                        <option value="KE">Kenya</option>
+                        <option value="KI">Kiribati</option>
+                        <option value="KP">Korea, Democratic People's Republic of</option>
+                        <option value="KR">Korea, Republic of</option>
+                        <option value="XK">Kosovo</option>
+                        <option value="KW">Kuwait</option>
+                        <option value="KG">Kyrgyzstan</option>
+                        <option value="LA">Lao People's Democratic Republic</option>
+                        <option value="LV">Latvia</option>
+                        <option value="LB">Lebanon</option>
+                        <option value="LS">Lesotho</option>
+                        <option value="LR">Liberia</option>
+                        <option value="LY">Libyan Arab Jamahiriya</option>
+                        <option value="LI">Liechtenstein</option>
+                        <option value="LT">Lithuania</option>
+                        <option value="LU">Luxembourg</option>
+                        <option value="MO">Macao</option>
+                        <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+                        <option value="MG">Madagascar</option>
+                        <option value="MW">Malawi</option>
+                        <option value="MY">Malaysia</option>
+                        <option value="MV">Maldives</option>
+                        <option value="ML">Mali</option>
+                        <option value="MT">Malta</option>
+                        <option value="MH">Marshall Islands</option>
+                        <option value="MQ">Martinique</option>
+                        <option value="MR">Mauritania</option>
+                        <option value="MU">Mauritius</option>
+                        <option value="YT">Mayotte</option>
+                        <option value="MX">Mexico</option>
+                        <option value="FM">Micronesia, Federated States of</option>
+                        <option value="MD">Moldova, Republic of</option>
+                        <option value="MC">Monaco</option>
+                        <option value="MN">Mongolia</option>
+                        <option value="ME">Montenegro</option>
+                        <option value="MS">Montserrat</option>
+                        <option value="MA">Morocco</option>
+                        <option value="MZ">Mozambique</option>
+                        <option value="MM">Myanmar</option>
+                        <option value="NA">Namibia</option>
+                        <option value="NR">Nauru</option>
+                        <option value="NP">Nepal</option>
+                        <option value="NL">Netherlands</option>
+                        <option value="AN">Netherlands Antilles</option>
+                        <option value="NC">New Caledonia</option>
+                        <option value="NZ">New Zealand</option>
+                        <option value="NI">Nicaragua</option>
+                        <option value="NE">Niger</option>
+                        <option value="NG">Nigeria</option>
+                        <option value="NU">Niue</option>
+                        <option value="NF">Norfolk Island</option>
+                        <option value="MP">Northern Mariana Islands</option>
+                        <option value="NO">Norway</option>
+                        <option value="OM">Oman</option>
+                        <option value="PK">Pakistan</option>
+                        <option value="PW">Palau</option>
+                        <option value="PS">Palestinian Territory, Occupied</option>
+                        <option value="PA">Panama</option>
+                        <option value="PG">Papua New Guinea</option>
+                        <option value="PY">Paraguay</option>
+                        <option value="PE">Peru</option>
+                        <option value="PH">Philippines</option>
+                        <option value="PN">Pitcairn</option>
+                        <option value="PL">Poland</option>
+                        <option value="PT">Portugal</option>
+                        <option value="PR">Puerto Rico</option>
+                        <option value="QA">Qatar</option>
+                        <option value="RE">Reunion</option>
+                        <option value="RO">Romania</option>
+                        <option value="RU">Russian Federation</option>
+                        <option value="RW">Rwanda</option>
+                        <option value="BL">Saint Barthelemy</option>
+                        <option value="SH">Saint Helena</option>
+                        <option value="KN">Saint Kitts and Nevis</option>
+                        <option value="LC">Saint Lucia</option>
+                        <option value="MF">Saint Martin</option>
+                        <option value="PM">Saint Pierre and Miquelon</option>
+                        <option value="VC">Saint Vincent and the Grenadines</option>
+                        <option value="WS">Samoa</option>
+                        <option value="SM">San Marino</option>
+                        <option value="ST">Sao Tome and Principe</option>
+                        <option value="SA">Saudi Arabia</option>
+                        <option value="SN">Senegal</option>
+                        <option value="RS">Serbia</option>
+                        <option value="CS">Serbia and Montenegro</option>
+                        <option value="SC">Seychelles</option>
+                        <option value="SL">Sierra Leone</option>
+                        <option value="SG">Singapore</option>
+                        <option value="SX">Sint Maarten</option>
+                        <option value="SK">Slovakia</option>
+                        <option value="SI">Slovenia</option>
+                        <option value="SB">Solomon Islands</option>
+                        <option value="SO">Somalia</option>
+                        <option value="ZA">South Africa</option>
+                        <option value="GS">South Georgia and the South Sandwich Islands</option>
+                        <option value="SS">South Sudan</option>
+                        <option value="ES">Spain</option>
+                        <option value="LK">Sri Lanka</option>
+                        <option value="SD">Sudan</option>
+                        <option value="SR">Suriname</option>
+                        <option value="SJ">Svalbard and Jan Mayen</option>
+                        <option value="SZ">Swaziland</option>
+                        <option value="SE">Sweden</option>
+                        <option value="CH">Switzerland</option>
+                        <option value="SY">Syrian Arab Republic</option>
+                        <option value="TW">Taiwan, Province of China</option>
+                        <option value="TJ">Tajikistan</option>
+                        <option value="TZ">Tanzania, United Republic of</option>
+                        <option value="TH">Thailand</option>
+                        <option value="TL">Timor-Leste</option>
+                        <option value="TG">Togo</option>
+                        <option value="TK">Tokelau</option>
+                        <option value="TO">Tonga</option>
+                        <option value="TT">Trinidad and Tobago</option>
+                        <option value="TN">Tunisia</option>
+                        <option value="TR">Turkey</option>
+                        <option value="TM">Turkmenistan</option>
+                        <option value="TC">Turks and Caicos Islands</option>
+                        <option value="TV">Tuvalu</option>
+                        <option value="UG">Uganda</option>
+                        <option value="UA">Ukraine</option>
+                        <option value="AE">United Arab Emirates</option>
+                        <option value="GB">United Kingdom</option>
+                        <option value="US">United States</option>
+                        <option value="UM">United States Minor Outlying Islands</option>
+                        <option value="UY">Uruguay</option>
+                        <option value="UZ">Uzbekistan</option>
+                        <option value="VU">Vanuatu</option>
+                        <option value="VE">Venezuela</option>
+                        <option value="VN">Viet Nam</option>
+                        <option value="VG">Virgin Islands, British</option>
+                        <option value="VI">Virgin Islands, U.s.</option>
+                        <option value="WF">Wallis and Futuna</option>
+                        <option value="EH">Western Sahara</option>
+                        <option value="YE">Yemen</option>
+                        <option value="ZM">Zambia</option>
+                        <option value="ZW">Zimbabwe</option>
+                    </select>
+
+                    <a href="" class="account-icon">
+                        <i class="ri-account-box-line"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section class="about">
+        <div class="about-container">
+            <h2 class="about-title">Deloitte in Nigeria</h2>
+            <p class="about-text">Deloitte & Touche is the oldest indigenous firm in Nigeria, established in 1952 by Mr. Akintola Williams, FCA, CFR, CBE, the doyen of the accountancy profession</p>
+        </div>
+    </section>
+
+    <!-- Drop down -->
+    <div data-visible="false" class="drop-down-container">
+        <div class="drop-downs" id="drop-down-1">
+            <div class="drop-down-info-1 darker-drop-down">
+                <h2 class="heading-new">What's new</h2>
+                <ul class="dark-drop-down-list">
+                    <li>
+                        <h3><a href="">Deloitte Digital</a> </h3>
+                        <!-- <p><a href="">Leadership perspective from across the globe.</a></p> -->
+                    </li>
+                    <li>
+                        <h3><a href="">Deloitte Africa Centre for Corporate Governance</a></h3>
+                        <p><a href="">The Deloitte Africa Centre for corporate Governance offers a number of resources for executive, directors, and others who are active in governance.</a></p>
+                    </li>
+                    <li>
+                        <h3><a href="">Corporate Reporting reform</a></h3>
+                        <p><a href="">View our latest events on corporate reporting reform.</a></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="lists">
+                <h2><a href="">Audit & Assurance</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Audit & AssuranceInsights</a></li>
+                    <li><a href="">Center for Corporate</a></li>
+                    <li><a href="">Governance</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consulting</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Strategy</a></li>
+                    <li><a href="">Customer and Marketing</a></li>
+                    <li><a href="">Core Business Operations</a></li>
+                    <li><a href="">Human Capital</a></li>
+                    <li><a href="">Enterprise</a></li>
+                    <li><a href="">Performance</a></li>
+                    <li><a href="">Managed Services</a></li>
+                    <li><a href="">Growth Platform</a></li>
+                    
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Financial Advisory</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Mergers & Acquisitions</a></li>
+                    <li><a href="">Turnarounds and Restructuring</a></li>
+                    <li><a href="">Forensics</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Risk Advisory</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Internal Control & Assurance</a></li>
+                    <li><a href="">Regulatory Risk</a></li>
+                    <li><a href="">IT & Specialised Assurance</a></li>
+                    <li><a href="">Cyber Risks</a></li>
+                    <li><a href="">Analytics</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Tax & Legal</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Outsourced Tax Compliance</a></li>
+                    <li><a href="">Tax Technology Consulting </a></li>
+                    <li><a href="">Tax Advisory Consulting</a></li>
+                    <li><a href="">Mobility, Payroll, Immigration</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Deloitte Private</a></h2>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div data-visible="false" class="drop-down-container-2">
+        <div class="drop-downs drop-downs-2" id="drop-down-1">
+            <div class="drop-down-info-1 darker-drop-down">
+                <h2 class="heading-new">What's new 2</h2>
+                <ul class="dark-drop-down-list">
+                    <li>
+                        <h3><a href="">Deloitte prespectives</a></h3>
+                        <p><a href="">Leadership perspective from across the globe.</a></p>
+                    </li>
+                    <li>
+                        <h3><a href="">Deloitte prespectives</a></h3>
+                        <p><a href="">Leadership perspective from across the globe.</a></p>
+                    </li>
+                    <li>
+                        <h3><a href="">Deloitte prespectives</a></h3>
+                        <p><a href="">Leadership perspective from across the globe.</a></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div data-visible="false" class="drop-down-container-3">
+        <div class="drop-downs drop-downs-3" id="drop-down-1">
+            <div class="drop-down-info-1 darker-drop-down">
+                <h2 class="heading-new">What's new 3</h2>
+                <ul class="dark-drop-down-list">
+                    <li>
+                        <h3><a href="">Deloitte prespectives</a></h3>
+                        <p><a href="">Leadership perspective from across the globe.</a></p>
+                    </li>
+                    <li>
+                        <h3><a href="">Deloitte prespectives</a></h3>
+                        <p><a href="">Leadership perspective from across the globe.</a></p>
+                    </li>
+                    <li>
+                        <h3><a href="">Deloitte prespectives</a></h3>
+                        <p><a href="">Leadership perspective from across the globe.</a></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div data-visible="false" class="drop-down-container-4">
+        <div class="drop-downs drop-downs-4" id="drop-down-1">
+            <div class="drop-down-info-1 darker-drop-down">
+                <h2 class="heading-new">What's new 4</h2>
+                <ul class="dark-drop-down-list">
+                    <li>
+                        <h3><a href="">Deloitte prespectives</a></h3>
+                        <p><a href="">Leadership perspective from across the globe.</a></p>
+                    </li>
+                    <li>
+                        <h3><a href="">Deloitte prespectives</a></h3>
+                        <p><a href="">Leadership perspective from across the globe.</a></p>
+                    </li>
+                    <li>
+                        <h3><a href="">Deloitte prespectives</a></h3>
+                        <p><a href="">Leadership perspective from across the globe.</a></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <h2><a href="">Consumer</a></h2>
+                <ul class="light-back-drop-list">
+                    <li><a href="">Automotive</a></li>
+                    <li><a href="">Consumer Products</a></li>
+                    <li><a href="">Retail, Wholesale & Distribution</a></li>
+                    <li><a href="">Transportation, Hospitality & Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section class="finance">
+        <h2 class="finance-title">Finance</h2>
+        <div class="finance-container">
+            
+            <div class="finance-article-grid-left">
+                <a class="article-main">
+                    <div class="article-main-data">
+                        <p>Article</p>
+                        <h2>Petroleum Industry Act</h2>
+                        <h3>Nigeria's New Oil and Gas Regulatory Framework</h3>
+                        <p>Our Petroleum Industry Act (PIA) newsletter is a series of four issues, this document being Part 1, and it is focused on chapter 1 of the PIA. In it,...</p>
+                    </div>
+                    
+                    <!-- <div class="article-main-image-wrapper"> -->
+                    <img src="/images/ng-PIA-promo.png.png" alt="">
+                    <!-- </div> -->
+                </a>
+
+                <a class="article-1">
+                    <img src="/images/ng-addressing-the-financial-impact-of-COVID19-in-Nigeria-article.PNG.png" alt="">
+
+                    <div class="article-1-data">
+                        <span class="opa-5">Article</span>
+                        <div class="article-data">
+                            <h3>The impact of COVID-19 on infrastructure projects and assets</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="article-2">
+                    <img src="/images/ng-nigeria-rolls-out-additional-fiscal-measure-article.PNG.png" alt="">
+
+                    <div class="article-2-data">
+                        <span class="opa-5">Perspective</span>
+                        <div class="article-data">
+                            <h3>Understanding the sector impact of COVID-19 on NigeriaConsumer Products</h3>
+                            <p>Consumer Products companies are facing...</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="article-3">
+                    <img src="/images/ng-addressing-the-financial-impact-of-COVID19-in-Nigeria-article.PNG.png" alt="">
+
+                    <div class="article-3-data">
+                        <span class="opa-5">Article</span>
+                        <div class="article-data">
+                            <h3>Understanding the sector impact of COVID-19</h3>
+                            <h4>Oil & Gas</h4>
+                            <p>The oil supply/demand imbalance is occuring in ...</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="finance-article-grid-right">
+
+                <span class="submit-btn">   Submit RFP
+                    <p href="">Submit via online form</p>
+                </span>
+                <span class="submit-btn">Contact us
+                    <p href="">Submit via online form</p>
+                </span>
+                <span class="submit-btn">Find an office
+                    <p href="">Submit via online form</p>
+                </span>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- AUDIT -->
+    <section class="audit">
+        <h2 class="audit-title">Audit</h2>
+        <div class="audit-container">
+
+            <div class="audit-articles-grid-left">
+
+                <a href="" class="audit-article-1">
+                    <div class="audit-data-1">
+                        <span class="opa-5">Article</span>
+                        <h2>FRC guidance for External Auditors</h2>
+                        <h4>Covid-19 and its impact on the audit of reporting entities in Nigeria</h4>
+                    </div>
+                    <div class="audit-article-1-image">
+                        <img src="/images/ng-accounting-implications-of-government-assistance-tax-and-other-fiscal-stimulus-promo.PNG.png" alt="">
+                    </div>
+                </a>
+
+                <a href="" class="audit-article-2">
+                    <div class="audit-data">
+                        <span class="opa-5">Perspective</span>
+                        <h2>Group Financial Reporting</h2>
+                        <h4>This 2-day workshop offers a tailor-made approach to the specific group financial...</h4>
+                    </div>
+                </a>
+
+                <a href="" class="audit-article-3">
+                    <div class="audit-data">
+                        <span class="opa-5">Solutions</span>
+                        <h2>Financial Accounting and Operations</h2>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatum laborum quasi tempore veritatis? Id corporis repudiandae ipsum qui sed, impedit repellendus doloribus ullam, ipsam expedita eveniet quasi eum optio?</h4>
+                    </div>
+                </a>
+
+                <a href="" class="audit-article-4">
+                    <div class="audit-data-4">
+                        <span class="opa-5">Article</span>
+                        <h2>Accounting for Services Concession Arrangement (1 of 3)</h2>
+                        <h4>IFRIC 12 applies to public-to-private services Concession Arrangementin which the public...</h4>
+                    </div>
+
+                    <div class="audit-article-4-image">
+                        <img src="/images/gx-eri-fan-p.jpg.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- RISK ADVISORY -->
+
+    <section class="risk-advisory">
+        <h2 class="risk-advisory-title">Risk Advisory</h2>
+        <div class="risk-advisory-container">
+
+            <div class="risk-advisory-grid-left">
+
+                <a href="" class="risk-advisory-article">
+                    <div class="risk-advisory-image">
+                        <img src="/images/ng_article_2021_cyberoutlook_article.png.png"alt="">
+                    </div>
+
+                    <div class="risk-advisory-data">
+                        <span class="opa-5">Article</span>
+                        <h2>A fresh perspective</h2>
+                        <h4>Nigeria Cyber Security Outlook 2021</h4>
+                    </div>
+                </a>
+
+                <a href="" class="risk-advisory-article">
+                    <div class="risk-advisory-image">
+                        <img src="/images/ng-rpa-session-20082019.png.png"alt="">
+                    </div>
+
+                    <div class="risk-advisory-data">
+                        <span class="opa-5">Article</span>
+                        <h2>How Artificial Intelligence is Transforming the Financial Services Industry</h2>
+                    </div>
+                </a>
+
+                <a href="" class="risk-advisory-article-1">
+                    <div class="risk-advisory-image">
+                        <img src="/images/ng-COVID-19-Impact-on-Cybersecurity-24032020-article.jpg.png"alt="">
+                    </div>
+
+                    <div class="risk-advisory-data">
+                        <span class="opa-5">Article</span>
+                        <h2>COVID-19's Impact on Cybersecurity</h2>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TAX -->
+    <section class="tax">
+        <h2 class="tax-title">Tax</h2>
+        <div class="tax-container">
+
+            <div class="tax-grid-left">
+
+                <a href="" class="tax-article-1">
+                    <div class="tax-data-1">
+                        <span class="opa-7">Analysis</span>
+                        <h2>President Buhari signs the 2022 Appropriation Bill and 2021 Finance Bill into law</h4>
+                    </div>
+                    <div class="tax-article-1-image">
+                        <img src="/images/ng-firs-public-notice-on-stamp-duties-promo.png.png" alt="">
+                    </div>
+                </a>
+                
+                <a href="" class="tax-article-2">
+                    <div class="tax-article-image-2">
+                        <img src="/images/ng-court-firs-article.png.png" alt="">
+                    </div>
+                    <div class="tax-data">
+                        <span class="opa-7">Article</span>
+                        <h2>Finance Bill 2021 - Proposed changes to Nigeria's fiscal and regulatory laws</h2>
+                    </div>
+                </a>
+                
+                <a href="" class="tax-article-3">
+                    <div class="tax-article-image-3">
+                        <img src="/images/ng-firs-public-notice-on-stamp-duties.png.png" alt="">
+                    </div>
+                    <div class="tax-data">
+                        <span class="opa-5">Article</span>
+                        <h2>Federal Inland Revenue Service lifts CbC reports filing suspension</h2>
+                    </div>
+                </a>
+                
+                <a href="" class="tax-article-4">
+                    <div class="tax-data-4">
+                        <span class="opa-5">Article</span>
+                        <h2>Nigeria President signs new companies and allied matters bill 2020 into law</h2>
+                    </div>
+                    <div class="tax-article-image-4">
+                        <img src="/images/ng-cama-signed-into-law-promo.png.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="get-in-touch">
+        <div class="get-in-touch-container">
+
+            <div class="git-title">
+                <h3>Get in touch with us</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="git-list">
+        <div class="git-container">
+            <a class="padd-left" href="">Contact Us</a>
+            <a href="">Submit RFP</a>
+            <a href="">Media enquiries</a>
+        </div>
+    </section>
+
+    <section class="global-contact">
+        <div class="global-contact-outer">
+            <div class="global-contact-container">
+                <a href="" class="globe-office padd-left">
+                    <i class="ri-globe-line"></i>
+                    <p>Global office directory</p>
+                </a>
+                <a href="">Office location</a>
+                <div href="#" class="globe-location bord-right">
+                    <i class="ri-global-fill padd-right"></i>
+                        <select class="select select-color" id="country" name="country">
+                                    <option>select country</option>
+                                    <option value="AF">Afghanistan</option>
+                                    <option value="AX">Aland Islands</option>
+                                    <option value="AL">Albania</option>
+                                    <option value="DZ">Algeria</option>
+                                    <option value="AS">American Samoa</option>
+                                    <option value="AD">Andorra</option>
+                                    <option value="AO">Angola</option>
+                                    <option value="AI">Anguilla</option>
+                                    <option value="AQ">Antarctica</option>
+                                    <option value="AG">Antigua and Barbuda</option>
+                                    <option value="AR">Argentina</option>
+                                    <option value="AM">Armenia</option>
+                                    <option value="AW">Aruba</option>
+                                    <option value="AU">Australia</option>
+                                    <option value="AT">Austria</option>
+                                    <option value="AZ">Azerbaijan</option>
+                                    <option value="BS">Bahamas</option>
+                                    <option value="BH">Bahrain</option>
+                                    <option value="BD">Bangladesh</option>
+                                    <option value="BB">Barbados</option>
+                                    <option value="BY">Belarus</option>
+                                    <option value="BE">Belgium</option>
+                                    <option value="BZ">Belize</option>
+                                    <option value="BJ">Benin</option>
+                                    <option value="BM">Bermuda</option>
+                                    <option value="BT">Bhutan</option>
+                                    <option value="BO">Bolivia</option>
+                                    <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                    <option value="BA">Bosnia and Herzegovina</option>
+                                    <option value="BW">Botswana</option>
+                                    <option value="BV">Bouvet Island</option>
+                                    <option value="BR">Brazil</option>
+                                    <option value="IO">British Indian Ocean Territory</option>
+                                    <option value="BN">Brunei Darussalam</option>
+                                    <option value="BG">Bulgaria</option>
+                                    <option value="BF">Burkina Faso</option>
+                                    <option value="BI">Burundi</option>
+                                    <option value="KH">Cambodia</option>
+                                    <option value="CM">Cameroon</option>
+                                    <option value="CA">Canada</option>
+                                    <option value="CV">Cape Verde</option>
+                                    <option value="KY">Cayman Islands</option>
+                                    <option value="CF">Central African Republic</option>
+                                    <option value="TD">Chad</option>
+                                    <option value="CL">Chile</option>
+                                    <option value="CN">China</option>
+                                    <option value="CX">Christmas Island</option>
+                                    <option value="CC">Cocos (Keeling) Islands</option>
+                                    <option value="CO">Colombia</option>
+                                    <option value="KM">Comoros</option>
+                                    <option value="CG">Congo</option>
+                                    <option value="CD">Congo, Democratic Republic of the Congo</option>
+                                    <option value="CK">Cook Islands</option>
+                                    <option value="CR">Costa Rica</option>
+                                    <option value="CI">Cote D'Ivoire</option>
+                                    <option value="HR">Croatia</option>
+                                    <option value="CU">Cuba</option>
+                                    <option value="CW">Curacao</option>
+                                    <option value="CY">Cyprus</option>
+                                    <option value="CZ">Czech Republic</option>
+                                    <option value="DK">Denmark</option>
+                                    <option value="DJ">Djibouti</option>
+                                    <option value="DM">Dominica</option>
+                                    <option value="DO">Dominican Republic</option>
+                                    <option value="EC">Ecuador</option>
+                                    <option value="EG">Egypt</option>
+                                    <option value="SV">El Salvador</option>
+                                    <option value="GQ">Equatorial Guinea</option>
+                                    <option value="ER">Eritrea</option>
+                                    <option value="EE">Estonia</option>
+                                    <option value="ET">Ethiopia</option>
+                                    <option value="FK">Falkland Islands (Malvinas)</option>
+                                    <option value="FO">Faroe Islands</option>
+                                    <option value="FJ">Fiji</option>
+                                    <option value="FI">Finland</option>
+                                    <option value="FR">France</option>
+                                    <option value="GF">French Guiana</option>
+                                    <option value="PF">French Polynesia</option>
+                                    <option value="TF">French Southern Territories</option>
+                                    <option value="GA">Gabon</option>
+                                    <option value="GM">Gambia</option>
+                                    <option value="GE">Georgia</option>
+                                    <option value="DE">Germany</option>
+                                    <option value="GH">Ghana</option>
+                                    <option value="GI">Gibraltar</option>
+                                    <option value="GR">Greece</option>
+                                    <option value="GL">Greenland</option>
+                                    <option value="GD">Grenada</option>
+                                    <option value="GP">Guadeloupe</option>
+                                    <option value="GU">Guam</option>
+                                    <option value="GT">Guatemala</option>
+                                    <option value="GG">Guernsey</option>
+                                    <option value="GN">Guinea</option>
+                                    <option value="GW">Guinea-Bissau</option>
+                                    <option value="GY">Guyana</option>
+                                    <option value="HT">Haiti</option>
+                                    <option value="HM">Heard Island and Mcdonald Islands</option>
+                                    <option value="VA">Holy See (Vatican City State)</option>
+                                    <option value="HN">Honduras</option>
+                                    <option value="HK">Hong Kong</option>
+                                    <option value="HU">Hungary</option>
+                                    <option value="IS">Iceland</option>
+                                    <option value="IN">India</option>
+                                    <option value="ID">Indonesia</option>
+                                    <option value="IR">Iran, Islamic Republic of</option>
+                                    <option value="IQ">Iraq</option>
+                                    <option value="IE">Ireland</option>
+                                    <option value="IM">Isle of Man</option>
+                                    <option value="IL">Israel</option>
+                                    <option value="IT">Italy</option>
+                                    <option value="JM">Jamaica</option>
+                                    <option value="JP">Japan</option>
+                                    <option value="JE">Jersey</option>
+                                    <option value="JO">Jordan</option>
+                                    <option value="KZ">Kazakhstan</option>
+                                    <option value="KE">Kenya</option>
+                                    <option value="KI">Kiribati</option>
+                                    <option value="KP">Korea, Democratic People's Republic of</option>
+                                    <option value="KR">Korea, Republic of</option>
+                                    <option value="XK">Kosovo</option>
+                                    <option value="KW">Kuwait</option>
+                                    <option value="KG">Kyrgyzstan</option>
+                                    <option value="LA">Lao People's Democratic Republic</option>
+                                    <option value="LV">Latvia</option>
+                                    <option value="LB">Lebanon</option>
+                                    <option value="LS">Lesotho</option>
+                                    <option value="LR">Liberia</option>
+                                    <option value="LY">Libyan Arab Jamahiriya</option>
+                                    <option value="LI">Liechtenstein</option>
+                                    <option value="LT">Lithuania</option>
+                                    <option value="LU">Luxembourg</option>
+                                    <option value="MO">Macao</option>
+                                    <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+                                    <option value="MG">Madagascar</option>
+                                    <option value="MW">Malawi</option>
+                                    <option value="MY">Malaysia</option>
+                                    <option value="MV">Maldives</option>
+                                    <option value="ML">Mali</option>
+                                    <option value="MT">Malta</option>
+                                    <option value="MH">Marshall Islands</option>
+                                    <option value="MQ">Martinique</option>
+                                    <option value="MR">Mauritania</option>
+                                    <option value="MU">Mauritius</option>
+                                    <option value="YT">Mayotte</option>
+                                    <option value="MX">Mexico</option>
+                                    <option value="FM">Micronesia, Federated States of</option>
+                                    <option value="MD">Moldova, Republic of</option>
+                                    <option value="MC">Monaco</option>
+                                    <option value="MN">Mongolia</option>
+                                    <option value="ME">Montenegro</option>
+                                    <option value="MS">Montserrat</option>
+                                    <option value="MA">Morocco</option>
+                                    <option value="MZ">Mozambique</option>
+                                    <option value="MM">Myanmar</option>
+                                    <option value="NA">Namibia</option>
+                                    <option value="NR">Nauru</option>
+                                    <option value="NP">Nepal</option>
+                                    <option value="NL">Netherlands</option>
+                                    <option value="AN">Netherlands Antilles</option>
+                                    <option value="NC">New Caledonia</option>
+                                    <option value="NZ">New Zealand</option>
+                                    <option value="NI">Nicaragua</option>
+                                    <option value="NE">Niger</option>
+                                    <option value="NG">Nigeria</option>
+                                    <option value="NU">Niue</option>
+                                    <option value="NF">Norfolk Island</option>
+                                    <option value="MP">Northern Mariana Islands</option>
+                                    <option value="NO">Norway</option>
+                                    <option value="OM">Oman</option>
+                                    <option value="PK">Pakistan</option>
+                                    <option value="PW">Palau</option>
+                                    <option value="PS">Palestinian Territory, Occupied</option>
+                                    <option value="PA">Panama</option>
+                                    <option value="PG">Papua New Guinea</option>
+                                    <option value="PY">Paraguay</option>
+                                    <option value="PE">Peru</option>
+                                    <option value="PH">Philippines</option>
+                                    <option value="PN">Pitcairn</option>
+                                    <option value="PL">Poland</option>
+                                    <option value="PT">Portugal</option>
+                                    <option value="PR">Puerto Rico</option>
+                                    <option value="QA">Qatar</option>
+                                    <option value="RE">Reunion</option>
+                                    <option value="RO">Romania</option>
+                                    <option value="RU">Russian Federation</option>
+                                    <option value="RW">Rwanda</option>
+                                    <option value="BL">Saint Barthelemy</option>
+                                    <option value="SH">Saint Helena</option>
+                                    <option value="KN">Saint Kitts and Nevis</option>
+                                    <option value="LC">Saint Lucia</option>
+                                    <option value="MF">Saint Martin</option>
+                                    <option value="PM">Saint Pierre and Miquelon</option>
+                                    <option value="VC">Saint Vincent and the Grenadines</option>
+                                    <option value="WS">Samoa</option>
+                                    <option value="SM">San Marino</option>
+                                    <option value="ST">Sao Tome and Principe</option>
+                                    <option value="SA">Saudi Arabia</option>
+                                    <option value="SN">Senegal</option>
+                                    <option value="RS">Serbia</option>
+                                    <option value="CS">Serbia and Montenegro</option>
+                                    <option value="SC">Seychelles</option>
+                                    <option value="SL">Sierra Leone</option>
+                                    <option value="SG">Singapore</option>
+                                    <option value="SX">Sint Maarten</option>
+                                    <option value="SK">Slovakia</option>
+                                    <option value="SI">Slovenia</option>
+                                    <option value="SB">Solomon Islands</option>
+                                    <option value="SO">Somalia</option>
+                                    <option value="ZA">South Africa</option>
+                                    <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                    <option value="SS">South Sudan</option>
+                                    <option value="ES">Spain</option>
+                                    <option value="LK">Sri Lanka</option>
+                                    <option value="SD">Sudan</option>
+                                    <option value="SR">Suriname</option>
+                                    <option value="SJ">Svalbard and Jan Mayen</option>
+                                    <option value="SZ">Swaziland</option>
+                                    <option value="SE">Sweden</option>
+                                    <option value="CH">Switzerland</option>
+                                    <option value="SY">Syrian Arab Republic</option>
+                                    <option value="TW">Taiwan, Province of China</option>
+                                    <option value="TJ">Tajikistan</option>
+                                    <option value="TZ">Tanzania, United Republic of</option>
+                                    <option value="TH">Thailand</option>
+                                    <option value="TL">Timor-Leste</option>
+                                    <option value="TG">Togo</option>
+                                    <option value="TK">Tokelau</option>
+                                    <option value="TO">Tonga</option>
+                                    <option value="TT">Trinidad and Tobago</option>
+                                    <option value="TN">Tunisia</option>
+                                    <option value="TR">Turkey</option>
+                                    <option value="TM">Turkmenistan</option>
+                                    <option value="TC">Turks and Caicos Islands</option>
+                                    <option value="TV">Tuvalu</option>
+                                    <option value="UG">Uganda</option>
+                                    <option value="UA">Ukraine</option>
+                                    <option value="AE">United Arab Emirates</option>
+                                    <option value="GB">United Kingdom</option>
+                                    <option value="US">United States</option>
+                                    <option value="UM">United States Minor Outlying Islands</option>
+                                    <option value="UY">Uruguay</option>
+                                    <option value="UZ">Uzbekistan</option>
+                                    <option value="VU">Vanuatu</option>
+                                    <option value="VE">Venezuela</option>
+                                    <option value="VN">Viet Nam</option>
+                                    <option value="VG">Virgin Islands, British</option>
+                                    <option value="VI">Virgin Islands, U.s.</option>
+                                    <option value="WF">Wallis and Futuna</option>
+                                    <option value="EH">Western Sahara</option>
+                                    <option value="YE">Yemen</option>
+                                    <option value="ZM">Zambia</option>
+                                    <option value="ZW">Zimbabwe</option>
+                        </select>
+                </div>
+            </div>
+        
+
+            <div class="about-link">
+                <a href="">About Deloitte</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-container">
+
+            <div class="home-footer padd-line-height ">
+                <a href="">Home</a>
+                <a href="">Newsroom</a>
+                <a href="">Code od Conduct</a>
+                <a href="">Report unethical conduct</a>
+                <a href="">Office locator</a>
+                <a href="">Global office Directory</a>
+                <a href="">Press release</a>
+                <a href="">Sumbit RFP</a>
+                <a href="">Contact us</a>
+                <a href="">Deloitte insight Blog</a>
+                <a href="">Social Media</a>
+                <a href="">About Deloitte in Malawi</a>
+                <a href="">About Deloitte in Zimbabwe</a>
+                <a href="">About Deloitte in Mozambique</a>
+                <a href="">About Deloitte in Botswana</a>
+                <a href="">About Deloitte in Zambia</a>
+                <a href="">https://sacoronavirus.co.za</a>
+            </div>
+
+            <div class="services-footer padd-line-height b-l">
+                <h2>Services</h2>
+                <a href="">Audit & Assurance</a>
+                <a href="">Consulting</a>
+                <a href="">Financial Advisory</a>
+                <a href="">Risk Advisory</a>
+                <a href="">Tax & Legal</a>
+                <a href="">Deloitte Private</a>
+            </div>
+
+            <div class="industries-footer padd-line-height">
+                <h2>Industries</h2>
+                <a href="">Consumer</a>
+                <a href="">Energy & Resources</a>
+                <a href="">Financial Services</a>
+                <a href="">Life Sciences & Healthcare </a>
+                <a href="">Government and Public Services</a>
+                <a href="">Technology, Media & Telecom </a>
+            </div>
+            <div class="career-footer padd-line-height">
+                <h2>Careers</h2>
+                <a href="">Job search</a>
+                <a href="">Experienced Hires</a>
+                <a href="">Executives</a>
+                <a href="">Students </a>
+                <a href="">Life at Deloitte</a>
+                <a href="">Alumni </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-links">
+        <div class="footer-links-container">
+            <div class="footer-link-list-bg">
+            <div class="footer-link-list">
+                <a href="">About Deloitte</a>
+                <a href="">Terms of use</a>
+                <a href="">Privacy</a>
+                <a href="">Cookies</a>
+                <a href="">PAIA Manual</a>
+                <a href="">About Deloitte Africa Pricacy</a>
+                <a href="">Avature Privacy</a>
+                <a href="" class="bord-right">Standard terms of the provision of goods and services to Deloitte & touche </a>
+            </div>
+            </div>
+            <h4>© 2022. See <a href="" class="tou">Terms of Use</a> for more information.</h4>
+            <p>Deloitte refers to one or more of Deloitte Touche Tohmatsu Limited, a UK private company limited by guarantee (“DTTL”),its network of member firms, and their related entities. DTTL and each of its member firms are legally separate and independent entities. Please see <a href="" class="tou">www.deloitte.com/about</a> for a detailed description of DTTL and its member firms.</p>
+        </div>
+    </section>
+
+
+    <script src="/main.js"></script>
+</body>
+</html>
